@@ -11,11 +11,11 @@ The scripts in this repository perform the following tasks:
 
 ## Scripts
 
-### 1. combine_txt_files.py
+### 1. combine-txt-csv.py
 
 This script combines all `.txt` files in the `txt-files` directory into a single `combined.txt` file and converts it into a `combined.csv` file.
 
-### 2. combine_csv_files.py
+### 2. combine-cleanup-csv.py
 
 This script combines all `.csv` files in the `Datasets` directory into a single `combined.csv` file while removing all lines containing "Pronunciation,Latex".
 
@@ -24,8 +24,8 @@ This script combines all `.csv` files in the `Datasets` directory into a single 
 1. Ensure you have the required directories (`txt-files` and `Datasets`) in the same location as the scripts.
 2. Run the scripts using Python:
     ```sh
-    python combine_txt_files.py
-    python combine_csv_files.py
+    python combine-txt-csv.py
+    python combine-cleanup-csv.py
     ```
 
 ## Cleanup
