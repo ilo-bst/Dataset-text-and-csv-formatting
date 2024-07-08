@@ -1,4 +1,4 @@
-# Dataset formatting 
+# Dataset-text-and-csv-formatting
 
 This is part of a bigger project that generates and formats datasets in a specified form. This repository contains scripts to combine individual TXT files into a CSV file and perform other dataset formatting tasks.
 
